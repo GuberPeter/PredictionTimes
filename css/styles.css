@@ -1,169 +1,231 @@
 body {
-  background-color: #efa352;
-  margin: 0 8% auto;
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #efa352;
-  font-size: 1.2rem;
-  font-weight: bold;
+#title {
+  background-color: #ff4c68;
+  color: white;
 }
 
-.aktiv-merkozesek {
-  margin: 10px auto;
+#features {
+  background-color: white;
+  padding: 7% 15%;
+  position: relative;
+  text-align: center;
 }
 
-.ball {
-  width: 100%
+button {
+  font-family: 'Montserrat', sans-serif;
 }
 
-.col- {
-  color: #efa352;
+h1 {
+font-family: 'Montserrat-Black', sans-serif;
+font-size: 3.5rem;
+font-weight: 900;
+line-height: 1.5;
+text-shadow: 0 1px 1px black;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
   font-size: 1.5rem;
-  padding-left: 0;
-
 }
 
-.elso-csempesor {
-  margin-top: 10px;
+p {
+  color: #8f8f8f;
 }
 
 .navbar {
+  padding: 0 0 4.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.bullseye {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.bullseye:hover {
+  color: #ff4c68;
+}
+
+.check {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.check:hover {
+  color: #ff4c68;
+}
+
+.heart {
+  color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.heart:hover {
+  color: #ff4c68;
+}
+
+.downloads {
   padding: 0;
 }
 
-.navbar-brand {
-  color: #c53922;
-  display: inline-block;
-  font-family: 'Sail', cursive;
-  font-size: 2.5rem;
-  margin: 0 0 20px;
-  text-align: left;
+.section2-text {
+  padding: 30px 20px;
 }
 
-.navbar-brand:hover {
-  color: #6f0000;
+.img-fluid {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
-.navbar-brand img {
-  margin: 0;
-  width: 8%;
-}
-
-.navbar-brand span {
-  margin: auto auto 0;
+.meet-new {
   padding: 0;
-}
-
-.navbar-vertical-line {
-  border-left: 2.5px solid #c53922;
-  height: 70px;
-  display: inline-block;
-  margin: auto 20px;
-}
-
-.navcontainer {
-  background-color: #c53922;
-  margin: 0 0 20px;
-}
-
-.navcontainer a {
-  color: #efa352;
-  font-size: 0.9rem;
-  font-weight: 300;
 }
 
 .nav-item {
-background-color: #c53922;
-box-shadow: 3px 3px 10px 1px #222831;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 
-.nav-item a:hover {
-  color: #6f0000;
+.nav-link {
+  font-weight: 100;
+  font-size: 1.2rem;
 }
 
-.nav-item-shadow {
-  background-color: #efa352;
-  padding-right: 10px;
+.download-button {
+  margin: 5% 3% 0 0;
 }
 
-.row {
-  margin: auto 0;
-}
-
-.row-kupa1 {
-  height: 50%;
-}
-
-.row-kupa2 {
-  height: 50%;
-}
-
-.row-tabella1 {
-height: 50%;
-}
-
-.row-tabella2 {
-  height: 50%;
-}
-
-.teljes-kupa-text {
-  text-align: right;
-}
-
-.teljes-kupa:hover {
-  color: #6f0000;
-}
-
-.teljes-tabella-text {
-  text-align: right;
-}
-
-.teljes-tabella:hover {
-  color: #6f0000;
-}
-
-.to-have-margin-1 {
-  background-color: #c53922;
-  box-shadow: 5px 5px 10px 1px #222831;
-  color: #efa352;
-  font-size: 1.5rem;
-  height: 30rem;
-  margin: 0;
-  padding-left: 0;
-}
-
-.to-have-margin-2 {
-  background-color: #c53922;
-  box-shadow: 5px 5px 10px 1px #222831;
-  color: #efa352;
-  font-size: 1.5rem;
-  height: 15rem;
-  margin: 0;
-  padding-left: 0;
-}
-
-@media only screen and (min-width: 992px) and (max-width: 1200px) {
-
-.to-have-margin-1 {
-  height: 15rem;
-}
-
-.to-have-margin-2 {
-  height: 15rem;
-}
+.row2 {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-
-.to-have-margin-1 {
-  height: 15rem;
+.tindog {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-shadow: 0 1px 1px black;
 }
 
-.to-have-margin-2 {
-  height: 15rem;
+#testimonials {
+  background-color: #ef8172;
+  color: #ffff;
+  text-align: center;
 }
+
+.testimonial-image {
+  border-radius: 100%;
+  margin: 10px;
+  width: 10%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.logo {
+  margin: 20px 20px 15px;
+  width: 15%;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 25%;
+  text-align: center;
+}
+
+.find-the-true {
+  font-size: 3rem;
+  font-weight: 900;
+  padding: 1% 0 6% 0;
+}
+
+.download-button-2 {
+  margin: 0 3%;
+  padding: 0.5% 2%;
+}
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+}
+
+#footer .footer-text {
+  color: grey;
+  padding: 0 0 3%;
+}
+
+.icon-container {
+  padding: 5% 0 1%;
+}
+
+.footer-icon {
+  padding: 0 1%;
+}
+
+@media only screen and (min-width: 1028px) and (max-width: 1200px){
+
+  .meet-new-and-interesting {
+    font-size: 2rem;
+  }
+
+  .thumbnail-container {
+    height: auto;
+    max-width: 60%;
+  }
+
+}
+
+@media only screen and (max-width: 1028px){
+
+.col-right {
+  margin-top: 60px;
+}
+
+.thumbnail-container {
+  height: auto;
+  max-width: 60%;
+}
+
+  .meet-new-and-interesting {
+    font-size: 2rem;
+  }
+
+  .img-fluid {
+    position: static;
+    transform: none;
+  }
+
+  .row-title {
+    text-align: center;
+  }
 
 }
